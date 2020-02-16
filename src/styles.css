@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.isCompleted{
+  text-decoration: line-through;
+}
+
+.isFound{
+  background-color: rgba( 255, 215, 64, 0.6 );
+}
+
+.fillDiv{
+  width: 100%;
+}
+
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

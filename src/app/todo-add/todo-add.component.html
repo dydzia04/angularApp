@@ -1,0 +1,7 @@
+<div class="container">
+  <mat-form-field class="fillDiv">
+    <mat-label for="input">Treść ToDo: </mat-label>
+    <input matInput id="input" type="text" [(ngModel)]="textToTodo">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="addTodo()" >Dodaj</button>
+</div>

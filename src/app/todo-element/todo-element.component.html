@@ -1,0 +1,9 @@
+<div class="fillDiv container">
+    <mat-checkbox (change)="onToggle(todo)" type="checkbox" [checked]="todo.isDone">
+      <span [ngClass]="setClasses()">
+        {{ todo.title }}
+      </span>
+    </mat-checkbox>
+    <button mat-raised-button color="warn" (click)="onDelete(todo)" type="button" style="float: right">X</button>
+</div>
+<hr/>

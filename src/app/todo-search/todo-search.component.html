@@ -1,0 +1,9 @@
+<div class="container">
+  <mat-form-field class="fillDiv">
+    <mat-label for="input">Wyszukaj w nazwie: </mat-label>
+    <input matInput type="text" id="input" [(ngModel)]="textToFind">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="findTodo()" type="button">Wyszukaj</button>
+  <button mat-raised-button color="accent" (click)="clearFinds()" type="button" style="float: right;">Wyczyść wyszukiwania</button>
+</div>
+<hr/>
